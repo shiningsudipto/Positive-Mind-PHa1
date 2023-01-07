@@ -1,0 +1,252 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.paragraph {
+    color: #444343;
+    line-height: 26px;
+    margin: 24px 0;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+}
+
+.btn-primary {
+    background: #FFFFFF !important;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 35px;
+    text-align: center;
+    color: #F15B22;
+    border: 0;
+    margin-top: 25px;
+}
+
+/* Banner */
+
+header {
+    background-image: url('../images/banner/banner1.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    display: flex;
+    justify-content: end;
+}
+
+.btn-orange {
+    background: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: 0;
+    color: #ffff;
+    margin-top: 10px;
+}
+
+.banner-content {
+    width: 525px;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+
+/* My Failure */
+
+.my-failure {
+    /* margin: 130px 0; */
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.failure-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.failure-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 288px;
+}
+
+.failure-person {
+    height: 700px;
+}
+
+.failure-right-content {
+    width: 420px;
+    height: 400px;
+}
+
+.fa-solid {
+    color: #16D887;
+}
+
+.failure-list p {
+    margin-top: 15px;
+}
+
+/* My Plans */
+.my-plans h2 {
+    text-align: center;
+}
+
+.my-plans-box {
+    text-align: center;
+}
+
+.my-plans-img {
+    height: 80px;
+    width: 80px;
+}
+
+.my-plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin: 16px 0;
+}
+
+.my-plans-des {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.my-plans-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+
+/* My Progress */
+.my-progress {
+    margin: 130px 0;
+}
+
+.progress-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.progress-text-area {
+    width: 550px;
+}
+
+.progress-text-area h3 {
+    font-size: 30px;
+}
+
+.progress-img {
+    height: 450px;
+    border-radius: 25px;
+}
+
+hr {
+    margin-top: 15px;
+    width: 300px;
+}
+
+/* Positive Mindset */
+.positive-mindset {
+    background-image:
+        linear-gradient(to left, rgba(241, 93, 34, 0), rgba(241, 91, 34, 0.911)),
+        url('../images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 130px 0;
+    border-radius: 10px;
+
+}
+
+.positive-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    width: 459px;
+}
+
+.positive-content {
+    padding: 60px 65px;
+
+}
+
+/* Footer */
+footer {
+    background-color: #151414;
+    padding: 130px 0;
+}
+
+.footer-content {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.future {
+    width: 760px;
+}
+
+.future h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.future-p {
+    margin: 15px 0;
+}
+
+.future p {
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 485px;
+}
+
+.future-icon img {
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.subscribe h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 325px;
+    background-color: transparent;
+    border: 1px solid #F8F8F8;
+    border-radius: 10px;
+    padding: 20px;
+    color: #F3F3F3;
+}
